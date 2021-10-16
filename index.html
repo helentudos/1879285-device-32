@@ -4,12 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
-  <link rel="stylesheet" href="../style.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 
 <body>
   <header class="page-header">
-    <a href="https://htmlacademy.ru/"> <img class="logo" src="img/logo.svg" width="" height="" alt="Логотип «Device»"></a>
+    <a href="https://htmlacademy.ru/"> <img class="logo" src="img/logo.svg" width="" height=""
+        alt="Логотип «Device»"></a>
 
     <div class="header-user-menu">
       <form action="https://echo.htmlacademy.ru/" method="get">
@@ -32,7 +33,7 @@
     <nav class="navigation-header">
       <ul class="navigation-header-list">
         <li class="navigation-item">
-          <a class="navigation-link-menu" href="catalog.html">Каталог товаров</a>
+          <a class="navigation-menu-link" href="catalog.html">Каталог товаров</a>
           <ul class="hidden-menu-list">
             <li class="hidden-menu-item">
               <a class="hidden-menu-link" href="#">Виртуальная реальность</a>
@@ -83,7 +84,8 @@
           <img class="slider-img" src="img/slider/slider-1.png" width="" height="" alt="Квадрокоптер">
           <span class="slider-number">01</span>
           <b class="slider-name">Порхает как бабочка, жалит как пчела!</b>
-          <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную
+          <p class="slider-text">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным
+            под стандартную
             камеру.
           </p>
           <a class="slider-details" href="#">ПОДРОБНЕЕ</a>
@@ -102,7 +104,8 @@
           <span class="slider-number">02</span>
           <b class="slider-name">Худеем
             правильно!</b>
-          <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+          <p class="slider-text">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и
+            соблюдать диету.</p>
           <dl class="slider-details-list">
             <dt>48 часов</dt>
             <dd>Без подзарядки</dd>
@@ -113,7 +116,8 @@
           <span class="slider-number">03</span>
           <b class="slider-name">Делай селфи,
             как Бен Стиллер!</b>
-          <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего
+          <p class="slider-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров
+            длиной и весом всего
             5 кг.
           </p>
 
@@ -178,20 +182,20 @@
 
       <ul class="services-details-list">
         <li class="services-details-item">
-          <b>ДОСТАВКA</b>
-          <p>Мы с удовольствием доставим ваш товар прямо
+          <b class="services-details-title">ДОСТАВКA</b>
+          <p class="services-details-text">Мы с удовольствием доставим ваш товар прямо
             к вашему подъезду совершенно бесплатно! Ведь
             мы неплохо заработаем, поднимая его на ваш этаж.</p>
         </li>
         <li class="services-details-item">
-          <b>ГАРАНТИЯ</b>
-          <p>Если из-за возгорания купленного у нас товара у вас
+          <b class="services-details-title">ГАРАНТИЯ</b>
+          <p class="services-details-text">Если из-за возгорания купленного у нас товара у вас
             сгорит дом — не переживайте, мы выдадим вам новый.
             Товар, не дом, конечно же.</p>
         </li>
         <li class="services-details-item">
-          <b>КРЕДИТ</b>
-          <p>Залезть в долговую яму стало проще!
+          <b class="services-details-title">КРЕДИТ</b>
+          <p class="services-details-text">Залезть в долговую яму стало проще!
             Кредитные консультанты подберут для вас наиболее выгодные условия кредита.
             Выгодные для банка, разумеется.</p>
         </li>
@@ -201,9 +205,10 @@
       <h2 class="visually-hidden">О компании</h2>
       <a class="contacts-delivery" href="#">Доставим редкий товар под заказ</a>
       <div class="delivery-container">
-        <h3>О нас</h3>
-        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
-          Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
+        <h3 class="contacts-titile">О нас</h3>
+        <p class="contacts-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+        <p class="contacts-text">Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:
+        </p>
         <ul class="delivery-container-list">
           <li>Меловые линии
           </li>
@@ -218,16 +223,16 @@
       </div>
       <div class="contats-container">
         <div class="contacts-container-text">
-          <h3>Контакты</h3>
-          <p>Вы можете забрать товар сами, заехав в наш офис.
+          <h3 class="contacts-titile">Контакты</h3>
+          <p class="contacts-text">Вы можете забрать товар сами, заехав в наш офис.
             Заодно, сможете проверить работоспособность покупки. </p>
-          <b>Интернет-магазин «Девайс»</b>
+          <b class="contacts-container-info">Интернет-магазин «Девайс»</b>
           <address class="contacts-adress">
-            <p class="contacts-adress-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-            <a class="contacts-phone" href="tel:+7(812)812-12-12">+7 (812) 812-12-12</a><br>
+            <p class="contacts-adress-text contacts-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+            <a class="contacts-phone contacts-text" href="tel:+7(812)812-12-12">+7 (812) 812-12-12</a><br>
 
-            <b>Время работы</b>
-            <ul class="contacts-schedule">
+            <b class="contacts-container-info">Время работы</b>
+            <ul class="contacts-schedule contacts-text">
               <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
               <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
             </ul>
@@ -251,7 +256,8 @@
     </section>
   </main>
   <footer class="page-footer">
-    <a href="https://htmlacademy.ru/"><img class="logo" src="img/logo.svg" width="" height="" alt="Логотип «Device»"></a>
+    <a href="https://htmlacademy.ru/"><img class="footer-logo" src="img/logo-footer.svg" width="" height=""
+        alt="Логотип «Device»"></a>
     <address class="footer-adress">
       <p class="contacts-adress-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
     </address>
@@ -285,7 +291,7 @@
     </ul>
     <address class="footer-phone">
       <a class="contacts-phone" href="+7 (812) 812-12-12">+7 (812) 812-12-12</a></address>
-    <a class="contacts-page" href="https://htmlacademy.ru/">.html academy</a>
+    <a class="contacts-page" href="https://htmlacademy.ru/"><img src="img/htmlacademy.svg" width="" height="" alt="link .htmlacademy"></a>
   </footer>
 </body>
 
