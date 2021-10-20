@@ -13,65 +13,65 @@
         alt="Логотип «Device»"></a>
 
     <div class="header-user-menu">
-      <form action="https://echo.htmlacademy.ru/" method="get">
+      <form class="header-user-form" action="https://echo.htmlacademy.ru/" method="get">
         <label>Поиск по сайту
           <input type="text" class="header-user-link">
         </label>
       </form>
       <ul class="header-user-list">
         <li class="header-user-item">
-          <a class="header-user-link" href="#">Войти</a>
+          <a class="header-user-link header-user-log link" href="#">Войти</a>
         </li>
         <li class="header-user-item">
-          <a class="header-user-link" href="#">Сравнить</a>
+          <a class="header-user-link header-user-element link" href="#">Сравнить</a>
         </li>
         <li class="header-user-item">
-          <a class="header-user-link" href="#">Корзина</a>
+          <a class="header-user-link header-user-element link" href="#">Корзина</a>
         </li>
       </ul>
     </div>
     <nav class="navigation-header">
       <ul class="navigation-header-list">
         <li class="navigation-item">
-          <a class="navigation-menu-link" href="catalog.html">Каталог товаров</a>
+          <a class="navigation-menu-link link" href="catalog.html">Каталог товаров</a>
           <ul class="hidden-menu-list">
             <li class="hidden-menu-item">
-              <a class="hidden-menu-link" href="#">Виртуальная реальность</a>
+              <a class="hidden-menu-link link" href="#">Виртуальная реальность</a>
             </li>
             <li class="hidden-menu-item">
-              <a class="hidden-menu-link" href="#"> Моноподы для cелфи</a>
+              <a class="hidden-menu-link link" href="#"> Моноподы для cелфи</a>
             </li>
             <li class="hidden-menu-item">
-              <a class="hidden-menu-link" href="#">Экшн-камеры</a>
+              <a class="hidden-menu-link link" href="#">Экшн-камеры</a>
             </li>
           </ul>
           <ul class="hidden-menu-list">
             <li class="hidden-menu-item">
-              <a class="hidden-menu-link" href="#">Фитнес-браслеты</a>
+              <a class="hidden-menu-link link" href="#">Фитнес-браслеты</a>
             </li>
             <li class="hidden-menu-item">
-              <a class="hidden-menu-link" href="#"> Умные часы</a>
+              <a class="hidden-menu-link link" href="#"> Умные часы</a>
             </li>
           </ul>
           <ul class="hidden-menu-list">
             <li class="hidden-menu-item">
-              <a class="hidden-menu-link" href="#"> Квадрокоптеры</a>
+              <a class="hidden-menu-link link" href="#"> Квадрокоптеры</a>
             </li>
           </ul>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#">Доставка</a>
+          <a class="navigation-link link" href="#">Доставка</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#">Гарантия</a>
+          <a class="navigation-link link" href="#">Гарантия</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="#">Контакты</a>
+          <a class="navigation-link link" href="#">Контакты</a>
         </li>
       </ul>
     </nav>
   </header>
-  <main class="main-index">
+  <main class="main-container main-index">
     <h1 class="visually-hidden">Онлайн магазин:Девайс</h1>
     <section class="slider">
       <h2 class="visually-hidden">Слайды</h2>
@@ -88,14 +88,14 @@
             под стандартную
             камеру.
           </p>
-          <a class="slider-details" href="#">ПОДРОБНЕЕ</a>
+          <a class="slider-details link" href="#">ПОДРОБНЕЕ</a>
           <dl class="slider-details-list">
 
-            <dt>800 м</dt>
-            <dd>Дальность полета</dd>
+            <dt class="slider-details-details">800 м</dt>
+            <dd class="slider-details-text">Дальность полета</dd>
 
-            <dt>50 м</dt>
-            <dd>Радиус поражения</dd>
+            <dt class="slider-details-details">50 м</dt>
+            <dd class="slider-details-text">Радиус поражения</dd>
 
           </dl>
         </li>
@@ -107,8 +107,8 @@
           <p class="slider-text">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и
             соблюдать диету.</p>
           <dl class="slider-details-list">
-            <dt>48 часов</dt>
-            <dd>Без подзарядки</dd>
+            <dt class="slider-details-details">48 часов</dt>
+            <dd class="slider-details-text">Без подзарядки</dd>
           </dl>
         </li>
         <li class="slider-item">
@@ -122,12 +122,12 @@
           </p>
 
           <dl class="slider-details-list">
-            <dt>8,5м</dt>
-            <dd>Длина палки</dd>
-            <dt>5 кг</dt>
-            <dd>Вес палки</dd>
-            <dt>Карбон</dt>
-            <dd>Материал</dd>
+            <dt class="slider-details-details">8,5м</dt>
+            <dd class="slider-details-text">Длина палки</dd>
+            <dt class="slider-details-details">5 кг</dt>
+            <dd class="slider-details-text">Вес палки</dd>
+            <dt class="slider-details-details">Карбон</dt>
+            <dd class="slider-details-text">Материал</dd>
           </dl>
 
         </li>
@@ -149,61 +149,63 @@
       <h2 class="visually-hidden">Категории товаров</h2>
       <ul class="category-list">
         <li class="category-item">
-          <a class="category-link" href="#">Виртуальная
+          <a class="category-link link" href="#">Виртуальная
             реальность</a>
         </li>
 
         <li class="category-item">
-          <a class="category-link" href="#"> Моноподы
+          <a class="category-link link" href="#">Моноподы
             для селфи</a>
         </li>
         <li class="category-item">
-          <a class="category-link" href="#">Экшн-камеры</a>
+          <a class="category-link link" href="#">Экшн-камеры</a>
         </li>
         <li class="category-item">
-          <a class="category-link" href="#">Фитнес-браслеты</a>
+          <a class="category-link link" href="#">Фитнес-браслеты</a>
         </li>
         <li class="category-item">
-          <a class="category-link" href="#">Умные часы</a>
+          <a class="category-link link" href="#">Умные часы</a>
         </li>
         <li class="category-item">
-          <a class="category-link" href="#">Квадрокоптеры</a>
+          <a class="category-link link" href="#">Квадрокоптеры</a>
         </li>
       </ul>
     </section>
     <section class="services">
       <h2 class="visually-hidden">Сервис</h2>
-      <ul class="services-list">
-        <li class="services-item"><a class="services-link" href="#">ДОСТАВКA</a></li>
-        <li class="services-item"><a class="services-link" href="#">ГАРАНТИЯ</a></li>
-        <li class="services-item"><a class="services-link" href="#">КРЕДИТ</a></li>
+      <div class="services-container">
+        <ul class="services-list">
+          <li class="services-item"><a class="services-link link" href="#">ДОСТАВКA</a></li>
+          <li class="services-item"><a class="services-link link" href="#">ГАРАНТИЯ</a></li>
+          <li class="services-item"><a class="services-link link" href="#">КРЕДИТ</a></li>
 
-      </ul>
+        </ul>
 
-      <ul class="services-details-list">
-        <li class="services-details-item">
-          <b class="services-details-title">ДОСТАВКA</b>
-          <p class="services-details-text">Мы с удовольствием доставим ваш товар прямо
-            к вашему подъезду совершенно бесплатно! Ведь
-            мы неплохо заработаем, поднимая его на ваш этаж.</p>
-        </li>
-        <li class="services-details-item">
-          <b class="services-details-title">ГАРАНТИЯ</b>
-          <p class="services-details-text">Если из-за возгорания купленного у нас товара у вас
-            сгорит дом — не переживайте, мы выдадим вам новый.
-            Товар, не дом, конечно же.</p>
-        </li>
-        <li class="services-details-item">
-          <b class="services-details-title">КРЕДИТ</b>
-          <p class="services-details-text">Залезть в долговую яму стало проще!
-            Кредитные консультанты подберут для вас наиболее выгодные условия кредита.
-            Выгодные для банка, разумеется.</p>
-        </li>
-      </ul>
+        <ul class="services-details-list">
+          <li class="services-details-item">
+            <b class="services-details-title">ДОСТАВКA</b>
+            <p class="services-details-text">Мы с удовольствием доставим ваш товар прямо
+              к вашему подъезду совершенно бесплатно! Ведь
+              мы неплохо заработаем, поднимая его на ваш этаж.</p>
+          </li>
+          <li class="services-details-item">
+            <b class="services-details-title">ГАРАНТИЯ</b>
+            <p class="services-details-text">Если из-за возгорания купленного у нас товара у вас
+              сгорит дом — не переживайте, мы выдадим вам новый.
+              Товар, не дом, конечно же.</p>
+          </li>
+          <li class="services-details-item">
+            <b class="services-details-title">КРЕДИТ</b>
+            <p class="services-details-text">Залезть в долговую яму стало проще!
+              Кредитные консультанты подберут для вас наиболее выгодные условия кредита.
+              Выгодные для банка, разумеется.</p>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="contacts">
       <h2 class="visually-hidden">О компании</h2>
-      <a class="contacts-delivery" href="#">Доставим редкий товар под заказ</a>
+      <a class="contacts-delivery link" href="#">Доставим редкий товар под заказ</a>
       <div class="delivery-container">
         <h3 class="contacts-titile">О нас</h3>
         <p class="contacts-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
@@ -219,7 +221,7 @@
             ТоксБерри
           </li>
         </ul>
-        <a class="delivery-container-link" href="#">Подробнее о нас</a>
+        <a class="delivery-container-link link" href="#">Подробнее о нас</a>
       </div>
       <div class="contats-container">
         <div class="contacts-container-text">
@@ -229,7 +231,7 @@
           <b class="contacts-container-info">Интернет-магазин «Девайс»</b>
           <address class="contacts-adress">
             <p class="contacts-adress-text contacts-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-            <a class="contacts-phone contacts-text" href="tel:+7(812)812-12-12">+7 (812) 812-12-12</a><br>
+            <a class="contacts-phone contacts-text link" href="tel:+7(812)812-12-12">+7 (812) 812-12-12</a><br>
 
             <b class="contacts-container-info">Время работы</b>
             <ul class="contacts-schedule contacts-text">
@@ -238,7 +240,7 @@
             </ul>
           </address>
         </div>
-        <a class="contact-container-link" href="#">Напишите нам</a>
+        <a class="contact-container-link link" href="#">Напишите нам</a>
       </div>
     </section>
     <section class="mailing">
@@ -249,7 +251,7 @@
         длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
       <form class="mailing-form" method="POST" type="email" action="">
         <label>Ваш e-mail</label>
-        <input class="mailing-button" type="submit">Подписаться</input>
+        <input class="mailing-button" type="submit" value="Подписаться"></input>
       </form>
       <input class="mailing-input" type="checkbox" checked>
       <span>Это бесплатно</span>
@@ -263,13 +265,13 @@
     </address>
     <ul class="footer-navigation-list">
       <li class="footer-navigation-item">
-        <a class="navigation-link" href="#">Доставка</a>
+        <a class="navigation-link link" href="#">Доставка</a>
       </li>
       <li class="footer-navigation-item">
-        <a class="navigation-link" href="#">Гарантия</a>
+        <a class="navigation-link link" href="#">Гарантия</a>
       </li>
       <li class="footer-navigation-item">
-        <a class="navigation-link" href="#">Контакты</a>
+        <a class="navigation-link link" href="#">Контакты</a>
       </li>
     </ul>
     <ul class="footer-social-list">
@@ -291,7 +293,8 @@
     </ul>
     <address class="footer-phone">
       <a class="contacts-phone" href="+7 (812) 812-12-12">+7 (812) 812-12-12</a></address>
-    <a class="contacts-page" href="https://htmlacademy.ru/"><img src="img/htmlacademy.svg" width="" height="" alt="link .htmlacademy"></a>
+    <a class="contacts-page" href="https://htmlacademy.ru/"><img src="img/htmlacademy.svg" width="" height=""
+        alt="link .htmlacademy"></a>
   </footer>
 </body>
 

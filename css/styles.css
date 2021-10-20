@@ -30,7 +30,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -39,20 +47,41 @@ body {
 }
 
 .page-header {
+
+  width: 1160px;
   color: #000000;
   background: #FFE17F;
 }
 
-.header-user-list {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000000;
+.header-user-menu {
+  display: flex;
+  flex-direction: row;
+  width: 1075px;
+  margin: 0 auto;
 }
 
-a {
+.header-user-list {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 19px;
+
+}
+
+.header-user-form {
+  width: 480px;
+  opacity: 0.3;
+}
+
+.header-user-log {
+  width: 220px;
+}
+
+.header-user-element {
+  width: 120px;
+}
+
+.link {
   color: inherit;
 }
 
@@ -77,6 +106,15 @@ a {
   line-height: 18px;
 }
 
+.slider {
+  width: 1161px;
+}
+
+.slider-img {
+  width: 560px;
+  height: 560px;
+}
+
 .slider-number {
   font-family: "Rubik", sans-serif;
   font-style: normal;
@@ -98,11 +136,7 @@ a {
 }
 
 .slider-text {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+
   color: #444444;
 }
 
@@ -116,18 +150,12 @@ a {
   text-transform: uppercase;
 }
 
-dt {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+.slider-details-details {
   font-size: 36px;
   line-height: 30px;
 }
 
-dd {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+.slider-details-text {
   font-size: 16px;
   line-height: 30px;
   color: #444444;
@@ -137,8 +165,18 @@ dd {
   background: #F0F0F0;
 }
 
+.category-list {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+
+}
+
 .category-item {
+  width: 160px;
   background: #FFE17F;
+
+
 }
 
 .category-link {
@@ -147,10 +185,23 @@ dd {
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
+  color: #000000;
 
 }
 
+.services-container {
+  display: flex;
+  width: 1094px;
+  margin: 0 auto;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+}
+
 .services-item {
+  width: 160px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -170,12 +221,17 @@ dd {
 }
 
 .services-details-text {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
   color: #444444;
+}
+
+.services-details-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+
+  width: 1440px;
 }
 
 .contacts-delivery {
@@ -198,26 +254,16 @@ dd {
 }
 
 .contacts-text {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
   color: #444444;
 }
 
 .delivery-container-list {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
 }
 
 .contacts-container-info {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: bold;
   font-size: 24px;
   line-height: 30px;
 }
@@ -275,7 +321,7 @@ dd {
 }
 
 .mailing-button {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -332,12 +378,8 @@ dd {
 }
 
 .breadcrumbs-item {
-  font-family: "Rubik", sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #000000;
   opacity: 0.6;
 }
 
@@ -404,6 +446,7 @@ dd {
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
+  color: #000000;
 }
 
 .catalog-menu-price {
@@ -451,6 +494,7 @@ dd {
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .pagination-next {
@@ -460,7 +504,9 @@ dd {
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
+  color: #000000;
 }
+
 .pagination-page {
   font-family: "Rubik", sans-serif;
   font-style: normal;
