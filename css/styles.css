@@ -80,13 +80,6 @@ body {
   min-height: 186px;
 }
 
-.header-logo {
-  position: absolute;
-  width: 145px;
-  height: 36px;
-  left: 201px;
-  top: 17px;
-}
 
 .header-user-menu {
   display: grid;
@@ -1077,7 +1070,7 @@ body {
   color: #444444;
   opacity: 0.3;
   text-decoration: none;
-}
+} 
 
 .pagination-next {
   font-family: "Raleway", sans-serif;
