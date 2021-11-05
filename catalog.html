@@ -10,10 +10,10 @@
 <body>
   <header class="page-header">
     <div class="page-header-container catalog-header">
-      <div class="page-header-container-wrap">
-        <a href="https://htmlacademy.ru/"> <img class="logo" src="img/logo.svg" width="" height=""
-            alt="Логотип «Device»"></a>
 
+      <a href="https://htmlacademy.ru/"> <img class="header-logo" src="img/logo.svg" width="" height=""
+          alt="Логотип «Device»"></a>
+      <div class="page-header-container-wrap">
         <div class="header-user-menu">
           <form class="header-user-form" action="https://echo.htmlacademy.ru/" method="get">
             <label>Поиск по сайту
@@ -82,29 +82,29 @@
     </div>
   </header>
   <main class="main-inner">
-   
-      <section class="inner-header">
-        <div class="inner-header-container">
-          <h1 class="inner-header-title">Моноподы для селфи</h1>
-          <ul class="breadcrumbs">
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link link" href="index.html">Главная</a>
-            </li>
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link link">Каталог товаров</a>
-            </li>
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link link">Моноподы для селфи</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <div class="main-inner-container">
+
+    <section class="inner-header">
+      <div class="inner-header-container">
+        <h1 class="inner-header-title">Моноподы для селфи</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link breadcrumbs-item-main link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs-item breadcrumbs-item-catalog">
+            <a class="breadcrumbs-link link">Каталог товаров</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link link breadcrumbs-item-category">Моноподы для селфи</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="main-inner-container">
       <div class="main-wrapper">
         <section class="catalog-filter">
           <h2 class="visually-hidden">Фильтры
           </h2>
-          <b class="catalog-products-title">фильтр:</b>
+          <div class="catalog-products-filter-wrap"><b class="catalog-products-title">фильтр:</b></div>
           <form class="catalog-filter-form" action="" method="get">
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Стоимость</legend>
@@ -177,17 +177,17 @@
         <div class="catalog-wrapper">
           <section class="sorting">
             <div class="sorting-container">
-            <b class="sorting-title">Сортировка:</b>
-            <form class="sorting-type">
-              <label class="visually-hidden" for="sorting">Сортировка</label>
-              <select class="select-control" id="sorting" name="sorting">
-                <option value="popular">Сначала популярное</option>
-                <option value="cheap">Сначала дешёвое</option>
-                <option value="expensive">Сначала дорогое</option>
-              </select>
-              <button class="visually-hidden" type="submit">Отсортировать продукты</button>
-            </form>
-          </div>
+              <b class="sorting-title">Сортировка:</b>
+              <form class="sorting-type">
+                <label class="visually-hidden" for="sorting">Сортировка</label>
+                <select class="select-control" id="sorting" name="sorting">
+                  <option value="popular">Сначала популярное</option>
+                  <option value="cheap">Сначала дешёвое</option>
+                  <option value="expensive">Сначала дорогое</option>
+                </select>
+                <button class="visually-hidden" type="submit">Отсортировать продукты</button>
+              </form>
+            </div>
           </section>
           <section class="catalog-menu">
             <h2 class="visually-hidden">Каталог товаров</h2>
@@ -242,7 +242,7 @@
                 </a>
               </li>
               <li class="pagination-item pagination-page">
-                <a class="pagination-link pagination-current">1</a>
+                <a class="pagination-link pagination-current" href="#">1</a>
               </li>
               <li class="pagination-item pagination-page">
                 <a class="pagination-link" href="#">2</a>
